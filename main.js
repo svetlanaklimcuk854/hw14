@@ -12,7 +12,7 @@ const num = 1;
 const words = ["Джамшут", " Джамшута", "Джамшутов"];
 for (let i = 0; i <= 1021; i++) {
   console.log(i, getWordEnding(i, words));git 
-}
+};
 
 
 // 2   
@@ -23,7 +23,7 @@ function createPerson(name, age, hobbies, city) {
     hobbies,
     city,
   };
-}
+};
 
 const enrique = createPerson(
   "Энрике",
@@ -72,9 +72,9 @@ const nikolay = createPerson(
   "Ливерпуль"
 );
 
-const parents = [sarah, enrique]
-const grandParents = [jim, kelly, momEnrique]
-const family = [nikolay, momEnrique, jim, kelly, sarah, ann, enrique]
+const parents = [sarah, enrique];
+const grandParents = [jim, kelly, momEnrique];
+const family = [nikolay, momEnrique, jim, kelly, sarah, ann, enrique];
 
 Object.assign(sarah, { husbund: enrique }, [{ daughter: ann }], { mom: kelly }, { dad: jim });
 
